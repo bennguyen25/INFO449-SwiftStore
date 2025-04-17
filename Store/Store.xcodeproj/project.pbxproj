@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F258922DB085C4000F1F32 /* ExtraCreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F258912DB085BC000F1F32 /* ExtraCreditTests.swift */; };
 		FEAFD27F2B91637C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
 		FEAFD28C2B9163D100BEB810 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD28B2B9163D100BEB810 /* StoreTests.swift */; };
 		FEAFD2912B91641C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		50F258912DB085BC000F1F32 /* ExtraCreditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraCreditTests.swift; sourceTree = "<group>"; };
 		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAFD27E2B91637C00BEB810 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FEAFD28B2B9163D100BEB810 /* StoreTests.swift */,
+				50F258912DB085BC000F1F32 /* ExtraCreditTests.swift */,
 			);
 			path = StoreTests;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F258922DB085C4000F1F32 /* ExtraCreditTests.swift in Sources */,
 				FEAFD2912B91641C00BEB810 /* main.swift in Sources */,
 				FEAFD28C2B9163D100BEB810 /* StoreTests.swift in Sources */,
 			);
@@ -333,7 +337,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;
@@ -348,7 +352,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;
